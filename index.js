@@ -1,4 +1,4 @@
-define(['./template.html',"abstudio~synthet@0.0.4", "abstudio~mrsscroll@0.1.1",'./style.css'], function(html, Synthet, mrsScroll) {
+define(['./template.html', "abstudio~mrsscroll@0.1.1",'./style.css'], function(html, mrsScroll) {
 	
 	Synthet.newComponent('triple-aesthetic-columns', html)
 	.on('attached', function(element) {
