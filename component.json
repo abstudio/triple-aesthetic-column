@@ -2,13 +2,16 @@
 	"name": "widget-triple-aesthetic-columns",
 	"repository": "abstudio/widget-triple-aesthetic-columns",
 	"description": "Markup of triple column from Estetica project",
-	"version": "0.0.4",
+	"version": "0.0.6",
 	"keywords": ["webcomponent", "column", "triple"],
 	"template": "template.html",
-	"dependencies": {
-		"abstudio/synthet": "0.0.4",
+	"dependencies": {		
 		"abstudio/mrsscroll": "0.1.1"
 	},
+	"standaloneDependencies": {
+		"abstudio/synthet": "0.0.6"
+	},
+	"main": ["dist/widget-triple-aesthetic-columns.js"],
 	"scripts": ["index.js"],
 	"styles": ["style.css"],
 	"license": "MIT",
